@@ -4,14 +4,19 @@ header{
 
 .logo{
 	float: left;
+	margin: 10px 10px 0px 40px;
 }
 
 .nav-content {
-	padding: none;
+	padding: 10px;
+	float: right;
+	margin: 5px 40px 5px 5px;
 }
 
 .navigation{
-	float: left;
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 nav {
@@ -32,7 +37,7 @@ li{
 a { color: black; text-decoration: none;} 
 a:visited { color: black; text-decoration: none;} 
 a:hover { color: #A00; text-decoration: none;} 
-a:active { color: black; text-decoration: none; } 
+a:active { color: #ccc; text-decoration: none; } 
 
 
 body{
@@ -51,12 +56,15 @@ body{
 	padding-left: 0px; }
 
 article{
-	margin: 40px;
+	margin: 0px 100px 0px 100px;
 	border-bottom: 1px solid #DDD;
+	padding-bottom: 30px;
 }
 
 img{
 	max-width: 100%;
+	margin: none;
+	padding: none;
 }
 
 h1{
@@ -117,13 +125,14 @@ article h5{
 }
 
 footer nav{
-	margin-top: 40px;
+	margin-top: 20px;
 	text-decoration: none;
+	background: #ccc;
 }
 
 footer nav a{
-	margin-top: 40px;
-	color: #D00;
+	margin-top: 20px;
+	color: black;
 	text-decoration: none;
 	font-size: 16px;
 }
@@ -131,10 +140,35 @@ footer nav a{
 
 footer p{
 	font-size: 12px;
-	color: black;
+	background: black;
+	color: white;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 p{
 	line-height: 30px;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+	color: white;
+	background-color: black;
+}
+
+footer li{
+	padding: 0px;
+	color: white;
+}
+
+footer li a { color: white; text-decoration: none;} 
+footer li a:visited { color: white; text-decoration: none;} 
+footer li a:hover { color: #A00; text-decoration: none;} 
+footer li a:active { color: white; text-decoration: none; } 
+
+.footer {
+	background: black;
+	padding: 10px;
 }
